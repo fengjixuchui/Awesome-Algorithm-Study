@@ -1,6 +1,9 @@
 # Awesome-Algorithm-Study
 从零构建算法核心知识地图，打通你的任督二脉~
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/JsonChao/Awesome-Android-Performance/master/screenshots/algorithm_map.png">
+</div>
 
 
 ## 目录
@@ -13,9 +16,9 @@
 
 - **《剑指Offer》（进行中~）**
 
-### [Lettcode高频题解]()（进行中~）
+### [Lettcode高频题解]()
 
-- **拉钩教育之《300分钟搞定数据结构和算法》**（进行中~）
+- **拉钩教育之《300分钟搞定数据结构和算法》**
 - **LetteCode**
 - **动脑学院高级Android之数据结构与算法模块**
 -  慕课网之[玩转算法面试，从真题到思维全面提升算法思维](https://coding.imooc.com/learn/list/82.html)三门课程视频
