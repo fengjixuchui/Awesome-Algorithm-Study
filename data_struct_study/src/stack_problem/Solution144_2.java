@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+
 /**
  * O(n)
  * O(h)
@@ -31,12 +32,14 @@ public class Solution144_2 {
     }
 
     public List<Integer> preorderTraversal(TreeNode root) {
-
+        // 1、创建一个返回列表，如果根节点为空，则直接返回
         ArrayList<Integer> res = new ArrayList<>();
         if (root == null) {
             return res;
         }
 
+        // 2、使用Stack<Command>对象模拟系统栈实现二叉树的非递归前序遍历：
+        // 倒过来看为根左右，为什么？因为栈是先进后出的
         Stack<Command> stack = new Stack<>();
         stack.push(new Command("go", root));
         while (!stack.isEmpty()) {
